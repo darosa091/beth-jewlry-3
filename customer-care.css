@@ -1,0 +1,155 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.chat-box {
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.chat-messages {
+  padding: 20px;
+  overflow-y: auto;
+  height: 150px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-input {
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: purple;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: purple;
+}
+
+a{
+  color: white;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 425px){
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.chat-box {
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.chat-messages {
+  padding: 20px;
+  overflow-y: auto;
+  height: 150px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-input {
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: purple;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: purple;
+}
+
+}
+
+a{
+  color: white;
+}

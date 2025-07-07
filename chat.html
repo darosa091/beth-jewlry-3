@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+
+    <a href="index.html">
+        <<< Back
+    </a>
+    
+<div class="chat-container">
+        <div class="chat-header">
+            <h2>BETH-JEWELRY</h2>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will be displayed here -->
+        </div>
+        <div class="camera-container">
+            <video id="video" width="200" height="150"></video>
+            <button id="snap-btn">Take Snapshot</button>
+            <canvas id="canvas" width="200" height="150" style="display: none;"></canvas>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+
+
+<script src="chat.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,412 @@
+body{
+    background-color: #fff;
+}
+
+
+.menu-container {
+  position: relative;
+}
+
+.menu-toggle-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.menu-toggle-label span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 5px;
+  transition: all 0.3s;
+}
+
+#menu-toggle:checked + .menu-toggle-label span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+#menu-toggle:checked + .menu-toggle-label span:nth-child(2) {
+  opacity: 0;
+}
+
+#menu-toggle:checked + .menu-toggle-label span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -400px;
+  width: 200px;
+  height: 100vh;
+  background-color: black;
+  padding: 20px;
+  transition: all 0.3s;
+  
+}
+
+#menu-toggle:checked ~ .menu {
+  left: 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+}
+
+
+h1{
+    text-align: center;
+    color: purple;
+    margin-top: -14%;
+    font-size: 23px;
+    
+}
+
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 40px auto;
+  overflow: hidden;
+  
+  
+}
+
+.slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%; /* adjust based on number of images */
+  animation: slide 17s infinite;
+  
+}
+
+.slides img {
+  width: 25%; /* adjust based on number of images */
+  height: 100%;
+  float: left;
+  border-radius: 15px;
+  margin-top: 2%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-25%);
+  }
+  45% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  70% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-75%);
+  }
+  95% {
+    transform: translateX(-75%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+h2{
+    color: purple;
+    text-align: center;
+    font-size: 21px;
+    margin-top: -110px;
+}
+
+.b{
+    text-align: center;
+    font-weight: lighter;
+    font-size: large;
+    font-style: italic;
+}
+
+
+button{
+  width: 130%;
+  height: 30px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+  background-color: purple;
+  align-items: center;
+  margin-left: 24%;
+}
+
+.c-care{
+  margin-left: -16%;
+}
+
+.chat{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3{
+  text-align: center;
+  color: purple;
+  font-weight: bold;
+}
+
+
+.watsapp-logo{
+    width: 40px;
+    height: 40px;
+    background-image: url(image/watsapp-logo.jpg);
+    background-position: center;
+    background-size: 60px;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.watsapp-logo:hover{
+    transform: scale(1.1);
+}
+
+
+
+.telegram-logo{
+    width: 40px;
+    height: 40px;
+    background-image: url(image/telegram-logo.jpg);
+    background-position: center;
+    background-size: 60px;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.telegram-logo:hover{
+    transform: scale(1.1);
+}
+
+.website{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.footer{
+  
+  text-align: center;
+  background-color: black;
+  
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 320px){
+
+    h1{
+    text-align: center;
+    color: purple;
+    margin-top: 1%;
+    font-size: 23px;
+    
+}
+
+.h-a{
+  margin-top: -17%;
+}
+
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 40px auto;
+  overflow: hidden;
+  
+}
+
+.slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%; /* adjust based on number of images */
+  animation: slide 17s infinite;
+}
+
+.slides img {
+  width: 25%; /* adjust based on number of images */
+  height: 100%;
+  float: left;
+  border-radius: 15px;
+  
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-25%);
+  }
+  45% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  70% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-75%);
+  }
+  95% {
+    transform: translateX(-75%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+h2{
+    color: purple;
+    text-align: center;
+    font-size: 21px;
+    margin-top: -110px;
+}
+
+.b{
+    text-align: center;
+    font-weight: lighter;
+    font-size: large;
+}
+
+ }
+
+
+
+@media only screen and (max-width: 425px){
+
+h1{
+    text-align: center;
+    color: purple;
+    margin-top: -13%;
+    font-size: 23px;
+    
+}
+
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 40px auto;
+  overflow: hidden;
+  
+}
+
+.slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%; /* adjust based on number of images */
+  animation: slide 17s infinite;
+}
+
+.slides img {
+  width: 25%; /* adjust based on number of images */
+  height: 100%;
+  float: left;
+  border-radius: 15px;
+  
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-25%);
+  }
+  45% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  70% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-75%);
+  }
+  95% {
+    transform: translateX(-75%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+h2{
+    color: purple;
+    text-align: center;
+    font-size: 21px;
+    margin-top: -42px;
+}
+
+.b{
+    text-align: center;
+    font-weight: lighter;
+    font-size: large;
+}
+
+
+}
+
+

@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+
+
+.chat-container {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-messages {
+    padding: 10px;
+    overflow-y: auto;
+    height: calc(100% - 250px);
+}
+
+.camera-container {
+    padding: 10px;
+    margin-top: -20%;
+}
+
+#video {
+    border: 1px solid #ccc;
+}
+
+.chat-input {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+#message-input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-btn {
+    width: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;margin-left: 90%;
+   
+
+}
+
+#send-btn:hover {
+    background-color: purple;
+    transform: scale(1.2);
+}
+
+#snap-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 165px;
+}
+
+#snap-btn:hover {
+    background-color: purple;
+    transform: scale(1.2);
+}
+
+a{
+  color: white;
+}
